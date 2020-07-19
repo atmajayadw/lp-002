@@ -3,3 +3,124 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
+
+#navbar {}
+
+
+#navbar .navbar {
+    display: flex;
+    height: 100px;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+#navbar .logo img {
+    width: 150px;
+}
+
+#navbar .navbar .links {
+    margin-left: auto;
+    width: 60%;
+}
+
+#navbar .navbar .links ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .navbar .links ul li {
+    position: relative;
+}
+
+#navbar .navbar .links .link {
+    text-decoration: none;
+    color: #3D37F1;
+}
+
+#navbar .navbar .links .link:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    background-color: #3D37F1;
+    transition: transform 0.3s;
+}
+
+#navbar .navbar .links .link:hover:after {
+    transform: scaleX(1);
+}
+
+#navbar .navbar .links .btnlogin {
+    background-color: #FF8923;
+    color: white;
+    border-radius: 36px;
+    width: 150px;
+    transition: 0.5s;
+}
+
+#navbar .navbar .links .btnlogin:hover {
+    border: 1px solid #FF8923;
+    color: #FF8923;
+    background-color: white;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 23px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 28px;
+    height: 4px;
+    background-color: #3D37F1;
+    border-radius: 36px;
+    transition: 0.7s;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS NAVBAR---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #navbar .navbar .links {
+        display: none;
+    }
+
+    #navbar .hamburger {
+        display: flex;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #navbar .navbar .links {
+        display: none;
+    }
+
+    #navbar .hamburger {
+        display: flex;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #navbar .navbar .links {
+        display: none;
+    }
+
+    #navbar .hamburger {
+        display: flex;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
