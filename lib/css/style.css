@@ -160,7 +160,6 @@ body {
 
 #jumbotron .jumbo .jumbo-left .wave-me {
     display: flex;
-
     width: 200px;
     height: 40px;
     background-color: #3D37F1;
@@ -227,7 +226,7 @@ body {
 
     #jumbotron .jumbo-right {
         order: 1;
-        margin-top: 30px;
+        margin-top: 70px;
 
     }
 
@@ -240,7 +239,7 @@ body {
     }
 
     #jumbotron .jumbo .jumbo-left h1 {
-        margin-top: 50px;
+        margin-top: 60px;
         font-size: 30px;
         text-align: center;
     }
@@ -253,6 +252,7 @@ body {
     #jumbotron .jumbo .jumbo-left .wave-me {
         margin: auto;
         scale: 90%;
+        margin-top: 30px;
     }
 
     #navbar .logo img {
@@ -281,6 +281,156 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
+/* ---------------------- End Jumbotron -----------------------*/
+
+/* ---------------------- Services -----------------------*/
+
+#services {
+    height: 768px;
+    background-color: #FBFCFD;
+    padding: 30px 0;
+}
+
+#services .head {
+    /* width: 550px; */
+}
+
+#services .head p:first-child {
+    color: #3D37F1;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#services .head h3 {
+    font-size: 35px;
+    color: #5A5454;
+    text-align: center;
+}
+
+#services .head p:last-child {
+    color: #747474;
+    font-size: 14px;
+    text-align: center;
+}
+
+#services .row.services {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#services .row .service {
+    width: 280px;
+    height: 350px;
+    background-image: linear-gradient(to bottom, #FBBA77, #DFA871);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 30px;
+}
+
+#services .row .service.two {
+    background-image: linear-gradient(to bottom, #41EAE3, #2293B7);
+}
+
+#services .row .service.three {
+    background-image: linear-gradient(to bottom, #69529F, #463864);
+}
+
+#services .row .service.four {
+    background-image: linear-gradient(to bottom, #4386D2, #0962C5);
+}
+
+#services .row .service.five {
+    background-image: linear-gradient(to bottom, #A5A2F6, #564FD6);
+}
+
+#services .row .service.six {
+    background-image: linear-gradient(to bottom, #FF8088, #984141);
+}
+
+
+#services .row .service img {
+    height: 85px;
+    width: 85px;
+}
+
+#services .row .service h5 {
+    color: white;
+}
+
+#services .row .service p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+#services .row .service .btnreadmore {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    font-size: 13px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#services .row .service .btnreadmore:hover {
+    background-color: white;
+    color: #4B647E;
+    width: 100px;
+    font-size: 13px;
+    border-radius: 25px;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #services .head p:first-child {
+        font-size: 12px;
+    }
+
+    #services .head h3 {
+        font-size: 30px;
+    }
+
+    #services .head p:last-child {
+        font-size: 14px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* ---------------------- End Services -----------------------*/
+
+/* ----------------------  -----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -297,3 +447,7 @@ body {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* ---------------------- End  -----------------------*/
+
+/* ----------------------  -----------------------*/
