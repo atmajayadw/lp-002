@@ -862,9 +862,55 @@ body {
     margin-left: 50px;
 }
 
+/* ---------------------- End Features -----------------------*/
 
+/* ---------------------- Workflow -----------------------*/
 
+#workflow {
+    padding: 100px 0;
+}
 
+#workflow .container .left img {
+    width: 100%;
+}
+
+#workflow .right .head h5 {
+    color: #5A5454;
+    font-size: 22px;
+}
+
+#workflow .right .head p {
+    color: #747474;
+    font-size: 14px;
+}
+
+#workflow .right .flows {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#workflow .right .flows .flow {
+    height: 80px;
+    width: 160px;
+    margin-top: 20px;
+    display: flex;
+}
+
+#workflow .right .flows .flow img {
+    width: 50px;
+    height: 50px;
+}
+
+#workflow .right .flows .flow h5 {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#workflow .right .flows .flow p {
+    font-size: 10px;
+    margin-left: 10px;
+}
 
 
 
