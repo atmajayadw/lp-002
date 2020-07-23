@@ -709,6 +709,93 @@ body {
     font-weight: bold;
 }
 
+/* ---------------------- End Goals -----------------------*/
+
+/* ---------------------- Testimonials -----------------------*/
+
+#testimonials {
+    background-color: #0C0F32;
+    margin-top: 100px;
+    padding: 80px 0px;
+}
+
+#testimonials .head {}
+
+#testimonials .head h5 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#testimonials .head p {
+    color: #808080;
+    text-align: center;
+}
+
+#testimonials .slides {
+    margin-top: 100px;
+}
+
+#testimonials .slides .slide img {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+}
+
+#testimonials .slides .slide p {
+    text-align: center;
+    color: #808080;
+}
+
+#testimonials .slides .slide .name {
+    font-size: 24px;
+    color: #8F8BFF;
+}
+
+#testimonials .bottom {
+    margin-top: 100px;
+}
+
+#testimonials .bottom_ {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#testimonials .bottom p {
+    color: #808080;
+}
+
+#testimonials .bottom h5 {
+    color: white;
+}
+
+#testimonials .bottom .wave-me {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    background-color: #3D37F1;
+    border-radius: 35px;
+    color: white;
+    line-height: 40px;
+}
+
+#testimonials .bottom .wave-me:hover {
+    animation: shake 0.5s;
+}
+
+#testimonials .bottom .wave-me img {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    margin-right: 0;
+}
+
+#testimonials .bottom .wave-me span {
+    margin: auto;
+    margin-left: 10px;
+    color: white;
+}
 
 
 /* ---------- RESPONSIVE BREAKPOINTS ---------- */
