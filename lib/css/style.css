@@ -415,10 +415,6 @@ body {
 
 /* ---------------------- ABOUT -----------------------*/
 
-#about {
-    height: 600px;
-}
-
 #about .about .about-left,
 #about .about .about-right {
     height: 300px;
@@ -483,10 +479,6 @@ body {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-    #about {
-        height: 400px;
-    }
-
     #about .about .about-left,
     #about .about .about-right {
         height: 200px;
@@ -509,18 +501,153 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
+/* ---------------------- End About -----------------------*/
+
+/* ---------------------- Portfolio  -----------------------*/
+
+#portfolio {
+    background-color: #F8F8F8;
+}
+
+#portfolio .menus,
+#portfolio .slides {
+    margin-top: 125px;
+}
+
+#portfolio .menus {}
+
+#portfolio h5 {
+    color: #5A5454;
+    font-size: 30px;
+}
+
+#portfolio p {
+    color: #747474;
+    font-weight: lighter;
+}
+
+#portfolio .categories {
+    margin-top: 100px;
+    margin-left: -35px;
+}
+
+#portfolio .categories ul {
+    list-style: none;
+}
+
+#portfolio .categories ul li {
+    margin-top: 30px;
+    color: #969CA2;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+}
+
+#portfolio .categories ul li:hover {
+    color: #3D37F1;
+}
+
+#portfolio .categories ul li:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #3D37F1;
+    transition: 0.3s;
+}
+
+#portfolio .categories ul li:hover:after {
+    width: 100%;
+}
+
+#portfolio .porto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#portfolio .porto img {
+    width: 300px;
+    margin-top: 20px;
+}
+
+#portfolio .slides .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #3D37F1;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #portfolio .slides {
+        margin-top: 50px;
+    }
+
+    #portfolio .categories {
+        margin-top: 30px;
+    }
+
+    #portfolio .categories ul {
+        display: flex;
+    }
+
+    #portfolio .categories ul li {
+        margin-right: 25px;
+    }
+
+    #portfolio .porto img {
+        width: 150px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #portfolio .slides {
+        margin-top: 50px;
+    }
+
+    #portfolio .categories {
+        margin-top: 30px;
+    }
+
+    #portfolio .categories ul {
+        display: flex;
+    }
+
+    #portfolio .categories ul li {
+        margin-right: 25px;
+    }
+
+    #portfolio .porto img {
+        width: 200px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
 /* ---------------------- End  -----------------------*/
 
 /* ----------------------  -----------------------*/
-
-
-
-
-
-
-
-
-
 
 
 
