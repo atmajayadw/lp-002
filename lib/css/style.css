@@ -8,9 +8,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-#navbar {}
-
-
 #navbar .navbar {
     display: flex;
     height: 100px;
@@ -290,10 +287,6 @@ body {
     padding: 30px 0;
 }
 
-#services .head {
-    /* width: 550px; */
-}
-
 #services .head p:first-child {
     color: #3D37F1;
     font-size: 14px;
@@ -514,8 +507,6 @@ body {
     margin-top: 125px;
 }
 
-#portfolio .menus {}
-
 #portfolio h5 {
     color: #5A5454;
     font-size: 30px;
@@ -600,8 +591,6 @@ body {
     #portfolio .categories {
         margin-top: 30px;
     }
-
-    #portfolio .categories ul {}
 
     #portfolio .categories ul li {
         margin-right: 25px;
@@ -719,7 +708,6 @@ body {
     padding: 80px 0px;
 }
 
-#testimonials .head {}
 
 #testimonials .head h5 {
     color: white;
@@ -946,7 +934,7 @@ body {
     width: 300px;
     height: 400px;
     box-shadow: 20px 20px 20px rgba(197, 195, 249, 0.15);
-    margin-top: 20px;
+    margin-top: 30px;
     position: relative;
 }
 
@@ -983,8 +971,25 @@ body {
     bottom: 20px;
 }
 
+/* ---------------------- End Blog  -----------------------*/
 
+/* ---------------------- Partnership -----------------------*/
 
+#partnership {
+    padding-bottom: 50px;
+}
+
+#partnership .partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#partnership .partners img {
+    height: 120px;
+    width: 120px;
+    /* margin: 5px 10px; */
+}
 
 
 
