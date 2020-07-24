@@ -910,6 +910,7 @@ body {
 
 #blog {
     padding: 100px 0;
+    background-color: #FBFCFD;
 }
 
 #blog .head h5 {
@@ -977,12 +978,13 @@ body {
 
 #partnership {
     padding-bottom: 50px;
+    background-color: #FBFCFD;
 }
 
 #partnership .partners {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #partnership .partners img {
@@ -991,7 +993,104 @@ body {
     /* margin: 5px 10px; */
 }
 
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
 
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #partnership .partners {
+        justify-content: space-around;
+    }
+}
+
+/* ---------------------- End Partnership -----------------------*/
+
+/* ---------------------- Footer -----------------------*/
+
+#footer {
+    padding: 50px 0;
+}
+
+#footer .footer-one .logo {
+    width: 130px;
+}
+
+#footer .footer-one p {
+    color: #747474;
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+
+#footer .footer-one .socmed {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer-two h5,
+#footer .footer-three h5,
+#footer .footer-four h5 {
+    font-size: 18px;
+    color: #747474;
+}
+
+#footer .footer-two ul,
+#footer .footer-three ul,
+#footer .footer-four ul {
+    list-style: none;
+    margin-left: -25px;
+}
+
+#footer .footer-two ul li,
+#footer .footer-three ul li,
+#footer .footer-four ul li {
+    font-size: 14px;
+    color: #747474;
+    font-weight: lighter;
+    margin: 15px 0;
+}
+
+#footer .footer-two,
+#footer .footer-three,
+#footer .footer-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS FOOTER ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #footer .footer-one .logo {
+        display: block;
+        margin: auto;
+    }
+
+    #footer .footer-two,
+    #footer .footer-three,
+    #footer .footer-four {
+        margin-top: 30px;
+        display: block;
+    }
+
+    #footer .footer-two h5,
+    #footer .footer-three h5,
+    #footer .footer-four h5,
+    #footer .footer-two ul li,
+    #footer .footer-three ul li,
+    #footer .footer-four ul li {
+        text-align: center;
+    }
+
+    #footer .footer-two ul,
+    #footer .footer-three ul,
+    #footer .footer-four ul {
+        list-style: none;
+        margin-left: -40px;
+    }
+
+}
 
 
 /* ---------- RESPONSIVE BREAKPOINTS ---------- */
