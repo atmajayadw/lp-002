@@ -800,7 +800,11 @@ body {
 /* ---------- RESPONSIVE BREAKPOINTS ---------- */
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    #testimonials .bottom_ {
+        justify-content: center;
+    }
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {}
@@ -911,6 +915,75 @@ body {
     font-size: 10px;
     margin-left: 10px;
 }
+
+/* ---------------------- End Workflow -----------------------*/
+
+/* ---------------------- Blog -----------------------*/
+
+#blog {
+    padding: 100px 0;
+}
+
+#blog .head h5 {
+    color: #5A5454;
+    font-size: 30px;
+    text-align: center;
+}
+
+#blog .head p {
+    color: #808080;
+    text-align: center;
+}
+
+#blog .posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+#blog .posts .post {
+    width: 300px;
+    height: 400px;
+    box-shadow: 20px 20px 20px rgba(197, 195, 249, 0.15);
+    margin-top: 20px;
+    position: relative;
+}
+
+#blog .posts .post .thumbnail {
+    width: 100%;
+}
+
+#blog .posts .post .title {
+    text-decoration: none;
+}
+
+#blog .posts .post h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #545454;
+    padding: 0 15px;
+}
+
+#blog .posts .post p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #747474;
+    padding: 0 15px;
+}
+
+#blog .posts .post.two h5,
+#blog .posts .post.three h5 {
+    margin-top: 20px;
+}
+
+#blog .posts .post .arrow {
+    padding: 0 15px;
+    position: absolute;
+    bottom: 20px;
+}
+
+
 
 
 
