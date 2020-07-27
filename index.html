@@ -23,7 +23,7 @@
 <body>
 
     <section id="navbar">
-        <div class="container-fluid">
+        <div class="container-fluid position-relative">
             <div class="container navbar">
                 <div class="logo">
                     <a href="#"><img class="logo" src="Assets/icon/logo.png" alt="logo"></a>
@@ -38,13 +38,23 @@
                         <li><a href=""><button type="button" class="btn btnlogin">Log In</button></a></li>
                     </ul>
                 </div>
+            </div>
+            <div class="container sidebar">
                 <div class="hamburger">
                     <span class="line1"></span>
                     <span class="line2"></span>
                     <span class="line3"></span>
                 </div>
-            </div>
-            <div class="container sidebar">
+                <div class="links">
+                    <ul>
+                        <li><a class="link" href="">Home</a></li>
+                        <li><a class="link" href="">Portoflio</a></li>
+                        <li><a class="link" href="">About</a></li>
+                        <li><a class="link" href="">Blog</a></li>
+                        <li><a class="link" href="">Contact</a></li>
+                        <li><a href=""><button type="button" class="btn btnlogin">Log In</button></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -148,32 +158,37 @@
                     <p>View our portfolio in categories</p>
                     <div class="categories">
                         <ul>
-                            <li onclick="currentSlide(1)">All Works</li>
-                            <li>Minimal Design</li>
-                            <li>Colorful Design</li>
-                            <li>Landing Page Design</li>
-                            <li>Mobile Apps Design</li>
+                            <li class="thumbs" onclick="filterSelection('all')">All Works</li>
+                            <li class="thumbs" onclick="filterSelection('minimal')">Minimal Design</li>
+                            <li class="thumbs" onclick="filterSelection('colorful')">Colorful Design</li>
+                            <li class="thumbs" onclick="filterSelection('landingpage')">Landing Page Design</li>
+                            <li class="thumbs" onclick="filterSelection('mobile')">Mobile Apps Design</li>
                         </ul>
                     </div>
                 </div>
                 <div class=" col-md-8 slides">
                     <hr>
-                    <div class="slide">
-                        <div class="porto">
+                    <div class="portofo">
+                        <div class="porto colorful">
                             <img src="Assets/img/porto1.png">
+                        </div>
+                        <div class="porto colorful">
                             <img src="Assets/img/porto2.png">
+                        </div>
+                        <div class="porto mobile">
                             <img src="Assets/img/porto3.png">
+                        </div>
+                        <div class="porto minimal">
                             <img src="Assets/img/porto4.png">
+                        </div>
+                        <div class="porto colorful">
                             <img src="Assets/img/porto5.png">
+                        </div>
+                        <div class="porto landingpage">
                             <img src="Assets/img/porto6.png">
                         </div>
-                        <div class="dots">
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                        </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
         </div>

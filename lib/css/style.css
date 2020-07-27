@@ -554,30 +554,23 @@ body {
     width: 100%;
 }
 
-#portfolio .porto {
+#portfolio .portofo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-#portfolio .porto img {
+#portfolio .portofo img {
     width: 300px;
     margin-top: 20px;
 }
 
-#portfolio .slides .dots {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
+#portfolio .slides .porto {
+    display: none;
 }
 
-.dot {
-    height: 10px;
-    width: 10px;
-    background-color: #3D37F1;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 10px 2px;
+#portfolio .slides .porto.show {
+    display: block;
 }
 
 /* ---------- RESPONSIVE BREAKPOINTS ---------- */
@@ -596,7 +589,7 @@ body {
         margin-right: 25px;
     }
 
-    #portfolio .porto img {
+    #portfolio .portofo img {
         width: 150px;
     }
 
