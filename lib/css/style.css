@@ -134,7 +134,7 @@ body {
     z-index: 5;
     padding: 50px 0;
     transition: 0.8s;
-    transform: translateX(-500px);
+    transform: translateX(-1400px);
     opacity: 0.95;
 }
 
