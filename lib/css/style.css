@@ -220,6 +220,7 @@ body {
     background-size: 65%;
     background-position: top right;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     margin-top: -110px;
 }
 
@@ -492,6 +493,13 @@ body {
 
 /* ---------------------- ABOUT -----------------------*/
 
+#about {
+    background-image: url('../../Assets/bg/bg1.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #about .about .about-left,
 #about .about .about-right {
     height: 300px;
@@ -712,6 +720,14 @@ body {
 /* ---------------------- End Portfolio -----------------------*/
 
 /* ---------------------- Goals -----------------------*/
+
+#goals {
+    background-image: url('../../Assets/bg/bg2.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+}
 
 #goals h5 {
     color: #5A5454;
